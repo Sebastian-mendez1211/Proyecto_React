@@ -48,7 +48,7 @@ function Navbar() {
           <hr className="d-md-none text-white-50" />
 
           <ul className="navbar-nav flex-row flex-wrap text-light">
-            {/* Aquí está el icono del carrito con el número siempre en 5 */}
+            
             <li className="nav-item col-6 col-md-auto p-3">
               <i id="cart-icon" className="bi bi-cart text-white"></i>
               <small id="cart-number" className="ms-2 text-white">
