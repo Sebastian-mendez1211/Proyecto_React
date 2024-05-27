@@ -18,9 +18,9 @@ function Contacto() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Aquí puedes manejar la lógica para enviar el formulario, como enviar una solicitud HTTP
+    
     console.log('Formulario enviado:', formData);
-    // Limpia el formulario después de enviar
+    
     setFormData({
       nombre: '',
       correo: '',

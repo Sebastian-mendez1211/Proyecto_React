@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import './catalogo.css';
 
 const products = [
   { id: 1, name: 'Pantaloneta', image: './public/pantaloneta.jpeg', description: 'Descripción de la Pantaloneta' },
